@@ -32,3 +32,5 @@ console.log(a - b);
 console.log(a * b);
 console.log(a / b);
 console.log(a % b)
+
+//Fim do exercício
