@@ -1,4 +1,4 @@
-let nota = 94
+let nota = -2
 
 if (nota == 100) {
     console.log ("O aluno obteve uma nota Excelente!");
