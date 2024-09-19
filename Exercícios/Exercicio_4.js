@@ -14,7 +14,7 @@ let funcionarios = ["Gabriel", "Lara", "Leonardo", "Lucas", "Pedro", "Jean", "Ni
 //Adição de conteúdo no array com push
 funcionarios.push("Jose")
 //Eliminando o primeiro conteúdo do array com shift
-funcionarios.shift("Ana")
+funcionarios.shift()
 //Eliminando o ultimo conteúdo do array com pop
 funcionarios.pop()
 
