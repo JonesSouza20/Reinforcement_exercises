@@ -1,0 +1,50 @@
+body {
+    background-color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex, justify-content, align-items;
+
+}
+
+.container {
+    background-color:darkcyan;
+    padding: 2%;
+    margin: 10%;
+    border: 10%;
+    border-radius: 1%;
+    border-style: hidden;
+    border: 8px;
+}
+
+.adicionarTarefas input {
+    flex: 1;
+    padding: 3px;
+    border: 2px;
+    border-radius: 4px;
+}
+
+.adicionarTarefas button {
+    margin-left: 6px;
+    border: 15%;
+    border-style: groove;
+    border-color: black;
+    border-radius: 12%;
+    padding: 3px;
+}
+
+#listaTarefas {
+    list-style: none;
+    padding: 2%;
+    margin: 2%;
+}
+
+#listaTarefas li {
+    background-color: aliceblue;
+    border: 2px;
+    margin-bottom: 8px;
+    display: flex;
+    padding: 6px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
