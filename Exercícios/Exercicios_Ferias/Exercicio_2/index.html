@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validação de Formulário</title>
+</head>
+<body>
+    <form id="form">
+        <h2>Cadastro</h2>
+
+        <label for="name">Nome</label>
+        <input type="text" id="name" placeholder="Digite seu nome">
+        <div id="nameError" class="error"></div>
+
+        <label for="email">Senha</label>
+        <input type="email" id="email" placeholder="Digite seu email">
+        <div id="emailError" class="error"></div>
+
+        <label for="password">Senha</label>
+        <input type="password" id="password" placeholder="Digite sua senha">
+        <div id="passwordError" class="error"></div>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
